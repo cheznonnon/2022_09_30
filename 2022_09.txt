@@ -1,0 +1,243 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/30
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		key input : tab
+			OLD : not accepted
+			NEW : fixed
+
+	CatPad for Mac
+		key input : tab
+			OLD : you cannot input
+			NEW:  fixed
+	Nonnon Paint
+		Grabber : Animated Frame
+			OLD : stretch is not supported
+			NEW : fixed
+		Grabber : Resizer : size is changed : when cancelled
+			OLD : misbehave
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_button.c
+		frame
+			NEW : always show option is added
+		click
+			NEW : pass-through option is added
+	mac/n_scrollbar.c
+		released
+			NEW : ported from Win32
+			[!] : simple mode only implemented
+
+	CatPad for Mac
+		Scroll Wheeling
+			NEW:  re-tuned
+		Titlebar
+			NEW : file path available
+	Nonnon Paint for Mac
+		Icon Buttons
+			NEW : partially implemented
+		Pen, Fill and Grabber
+			NEW : the same as Win32 version
+		Formatter
+			NEW : you can choose file type to save
+		Cursors
+			NEW : implemented
+	Nonnon Paint
+		Resizer
+			NEW : tab focus avaialble
+			[!] : input popup is obsoleted because of conflict
+		Grabber : Animated Frame
+			NEW : refactored
+			[!] : faster than older
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/20
+
+
+BUGFIX
+
+
+	mac/_mac.c
+		n_mac_desktop_size()
+			OLD : inaccurate behavior
+			NEW : fixed
+			[!] : copy and paste error
+	mac/n_txtbox.c
+		Paste : multi-line selected
+			OLD : misbehave
+			NEW : fixed
+
+	@project
+		x64 synchronizer
+			OLD : use exFAT drive
+			NEW : use "C:\" drive
+			[!] : VC++ needs NTFS in recent update
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		IME Support
+			NEW : partial selection is supported
+		Paste
+			NEW : scroll to the last pasted line
+
+	neutral/bmp/draw.c
+		renamed
+			OLD : n_bmp_circle()
+			NEW : n_bmp_hoop()
+		n_bmp_circle()
+			NEW : simpler and faster than older
+			[!] : usage is changed
+
+	CatPad for Mac
+		icon buttons
+			NEW : use a system accent color
+	hunyapiyo3
+		icon : 256px
+			NEW : replaced
+			[!] : the same with Mac version
+	Nonnon Freecell
+		icon : 256px
+			NEW : replaced
+			[!] : the same with Mac version
+	Nonnon Paint
+		Grabber
+			NEW : animated frame available
+		Grabber : reselect
+			NEW : implemented
+	Nonnon Paint for Mac
+		released
+			NEW : under construction version
+	Nonnon Spider
+		icon : 256px
+			NEW : replaced
+			[!] : like Freecell
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/10
+
+
+BUGFIX
+
+
+	mac/_mac.c
+		n_mac_topmost()
+			OLD : not working
+			NEW : fixed
+	mac/image.c
+		n_mac_image_text_draw()
+			NEW : removed
+			[!] : use other modules
+			[?] : bad quality
+	mac/n_txtbox.c
+		Save : Unicode LE/BE
+			OLD : broken
+			NEW : fixed
+		Save : N_TXT_UNICODE_UTF8_NO_BOM
+			NEW : separated from N_TXT_UNICODE_UTF
+			[!] : if there is BOM at loading, set BOM at saving when _UTF
+			[!] : else no BOM will be added when UTF8_NO_BOM
+		double click
+			OLD : invalid value will be set
+			NEW : fixed
+		key bindings : enter key
+			OLD : internal confusion will occur
+			NEW : fixed
+		paste
+			OLD : crash
+			NEW : fixed
+			[x] : realloc() causes
+		Non-Unicode files
+			OLD : crash
+			NEW : error dialog will appear
+
+	neutral/time.c
+		Mac : n_time_compare_mtime()
+			OLD : exFAT reports even numbers only
+			NEW : fixed
+	neutral/vector.c
+		Mac : n_vector_load_on_memory()
+			OLD : crash
+			NEW : patched
+			[x] : realloc() causes
+
+	win32/win_txtbox/00_helper.c
+		n_win_txtbox_is_accentmark_char()
+			OLD : code alignment error
+			NEW : fixed
+	win32/win_simplemenu.c
+		n_win_simplemenu_draw_internal() : header line
+			OLD : inaccurate
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2022/04/30
+
+	Project Checker for Mac
+		comparison between a Macintosh HDD and an exFAT drive
+			OLD : same time but reported as modified ("[!]")
+			NEW : fixed
+			[?] : problem of file system specification
+
+
+NEW_FEATURE
+
+
+	CatPad for Mac
+		Save Button
+			NEW : implemented
+		Search Field
+			NEW : implemented
+		Topmost Window
+			NEW : implemented
+		Run Calculator
+			NEW : implemented
+		Dump
+			NEW : implemented
+		IME
+			NEW : implemented
+		Accent Composition
+			NEW : implemented
+		Blinking Caret
+			NEW : implemented
+		Middle Button Grag N Drag
+			NEW : implemented
+		Menu Bar : "File Info"
+			NEW : you can know unicode / newline / file path
+
+
+----------==========----------==========----------==========----------
+
