@@ -1,6 +1,91 @@
 # 2022_09_30
 "Eat Your Own Catfood."
 
+#### Which one do I download?
+
+	In GitHub, each releases are managed by date
+
+		+ releasing 10th/20th/30th in a month internally
+		+ 30th release will be public
+
+		click ZIP in GitHub page
+		choose "Download"
+		downloaded place is different by browsers or OSes
+
+
+	Unlock security feature
+
+		Windows
+			file property of ZIP file
+
+		Mac
+			tweak Sandbox
+
+
+
+
+	[ nonnon_win_ansi.zip ]
+
+		ANSI (A) Version, run on Win9x (95/98/Me)
+		also run on WinNT but can handle system language only
+
+		threre is 3GB memory limit
+
+		+ made by MinGW GCC
+
+	[ nonnon_win_unicode.zip ]
+
+		Unicode (W) Version, run on WinNT(NT4/2000/XP/Vista/7/8/8.1/10)
+		Win9x cannot run
+
+		64-bit Windows can run
+
+		threre is 3GB memory limit
+
+		+ made by MinGW GCC
+
+	[ nonnon_win_x64.zip ]
+
+		64-bit Version, 64-bit Windows can run
+		32-bit Windows cannot run
+
+		threre is no 3GB memory limit
+
+		+ made by Visual C++
+
+	[ project_nonnon.zip ]
+
+		source code
+		including resources like icons an sounds
+
+		you can easily compile with .BAT files
+		you can get stand-alone EXE
+
+
+
+
+	[ Nonnon for Mac ]
+
+		Mac Version
+		a little different with Win32 version
+
+		including below
+
+			CatPad
+			hunyapiyo3
+			Marie
+			Freecell
+			Nonnon Paint
+			Pinknoise
+			Project Checker
+
+		Mac mini Late 2012 / Catalina is only supported
+
+	[ Nonnon for Mac Source ]
+
+		project files of Nonnon for Mac
+		Xcode can open (maybe)
+
 #### 何をダウンロードすればいいのニャ？
 
 
