@@ -12,6 +12,36 @@
 Change Log
 
 
+2022/09/30 #1 : 2022/10/02
+
+
+BUGFIX
+
+
+	CatPad for Mac
+		key input : enter : when caret gets out of canvas
+			OLD : not accurate
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer
+			NEW : viewer is implemented
+		Grabber : Frame
+			NEW : animated frame available
+		Grabber : Key Bindings
+			NEW : Ctrl+C and Ctrl+V available
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30
 
 
