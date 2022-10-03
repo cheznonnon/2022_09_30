@@ -12,6 +12,34 @@
 Change Log
 
 
+2022/09/30 #2 : 2022/10/03
+
+
+BUGFIX
+
+
+	CatPad for Mac
+		paste : when threre is modulo
+			OLD : more scroll is needed
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer
+			NEW : basic editing available
+			[!] : not completed
+			[?] : yesterdays recall may be problematic
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #1 : 2022/10/02
 
 
