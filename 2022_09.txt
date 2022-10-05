@@ -12,6 +12,32 @@
 Change Log
 
 
+2022/09/30 #4 : 2022/10/05
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Save : layer names
+			OLD : broken data are written
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Renamer
+			NEW : implemented
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #3 : 2022/10/04
 
 
