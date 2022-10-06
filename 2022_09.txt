@@ -12,6 +12,39 @@
 Change Log
 
 
+2022/09/30 #5 : 2022/10/06
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Save : layer names
+			OLD : confusion internally
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Eraser
+			NEW : whole eraser is supported
+		Key Bindings : F2 : Fork
+			NEW : rename to current date
+			[!] : currently no confirmation dialog available
+		Menu : Alpha Tweaker
+			NEW : implemented
+		Multi-Layer : Layer Window
+			NEW : popup menu available
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #4 : 2022/10/05
 
 
