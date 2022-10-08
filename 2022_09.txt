@@ -12,6 +12,62 @@
 Change Log
 
 
+2022/09/30 #6 : 2022/10/08
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		scroller calculation
+			OLD : inaccurate
+			NEW : fixed
+		right side margin
+			NEW : added
+	mac/draw.c
+		n_mac_draw_frame()
+			OLD : NSRectFill()
+			NEW : NSFrameRect()
+
+
+	CatPad for Mac
+		out of canvas
+			OLD : inaccurate behavior
+			NEW : fixed
+		Caret : when clicked
+			NEW : fade will be reset
+			[!] : more natural than older
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		caret
+			NEW : faster and lighter than older
+		drawRect
+			NEW : partial redraw is ready
+
+	CatPad for Mac
+		Caret
+			NEW : faster and lighter than older
+	Nonnon Paint for Mac
+		source code
+			NEW : partial redraw is ready
+		Pen
+			NEW : lighter and faster than older
+			[!] : dramatically lighter
+		Grabber
+			NEW : lighter and faster than older
+			[!] : dramatically lighter
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #5 : 2022/10/06
 
 
