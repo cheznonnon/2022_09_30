@@ -12,6 +12,49 @@
 Change Log
 
 
+2022/09/30 #7 : 2022/10/09
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		scrollbar : last position
+			OLD : not accurate
+			NEW : fixed
+
+	Nonnon Paint for Mac
+		Grabber : Quick Layer
+			OLD : icon is not accurate
+			NEW : fixed
+		Grabber : Animation Frame : with Resizer Preview
+			OLD : conflict
+			NEW : fixed
+			[!] : stop animation while Resizer is used
+		Cursor Handling
+			NEW : better behavior
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		context cursor
+			NEW : "NO" available
+		Grabber
+			NEW : drop available
+		Resizer : Color Option
+			NEW : Color Reduction available
+		Menu : Readme
+			NEW : english readme available
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #6 : 2022/10/08
 
 
