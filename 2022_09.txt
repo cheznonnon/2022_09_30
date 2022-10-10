@@ -12,6 +12,48 @@
 Change Log
 
 
+2022/09/30 #8 : 2022/10/10
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Pen
+			OLD : redraw error
+			NEW : fixed
+			[x] : faster code causes
+		Grid / Pixel Grid
+			OLD : not working accurately
+			NEW : disabled for now
+			[!] : under construction / very hard to implement
+		Cursor : Hotspot
+			OLD : not centered
+			NEW : fixed
+		Color Picker : when margin is clicked
+			OLD : color from bitmap data
+			NEW : invisible white
+		Pen : size
+			OLD : zero based
+			NEW :  one based
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		readme
+			NEW : dark mode is supported
+		Multi-Layer : when loading
+			NEW : progress indicator available
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #7 : 2022/10/09
 
 
