@@ -12,6 +12,47 @@
 Change Log
 
 
+2022/09/30 #9 : 2022/10/11
+
+
+BUGFIX
+
+
+	mac/n_button.c
+		memory leak
+			NEW : fixed
+	mac/n_scrollbar.c
+		memory leak
+			NEW : fixed
+	mac/n_txtbox.c
+		right side margin
+			OLD : insufficient
+			NEW : fixed
+
+	CatPad for Mac
+		memory leak
+			NEW : fixed
+	Nonnon Paint for Mac
+		memory leak
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer
+			NEW : 20% faster by cache mechanism
+		Multi-Layer : window
+			NEW : font is changed to system font
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #8 : 2022/10/10
 
 
