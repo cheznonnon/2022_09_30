@@ -12,6 +12,55 @@
 Change Log
 
 
+2022/09/30 #10 : 2022/10/13
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		caret
+			OLD : alyways blinks
+			NEW : focused only
+
+	hunyapiyo3
+		source code : build and run
+			OLD : crash
+			NEW : fixed
+			[x] : free() causes
+	Nonnon Freecell
+		source code : build and run
+			OLD : crash
+			NEW : fixed
+			[x] : free() causes
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Menu
+			OLD : internal confusion
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		spec is changed
+			NEW : line number is optional by default
+			NEW : .n_mode is added
+			NEW : ONELINE available
+
+	CatPad for Mac
+		search field
+			OLD : NSSearchField
+			NEW : NonnonTxtbox
+			[!] : you can use F3 and Ctrl+F
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #9 : 2022/10/11
 
 
