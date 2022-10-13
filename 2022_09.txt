@@ -20,7 +20,7 @@ BUGFIX
 
 	mac/n_txtbox.c
 		caret
-			OLD : alyways blinks
+			OLD : always blinks
 			NEW : focused only
 
 	hunyapiyo3
