@@ -12,6 +12,28 @@
 Change Log
 
 
+2022/09/30 #11 : 2022/10/14
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Context
+			NEW : implemented
+			[!] : up/down in layer window menu
+			[!] : width and height of Resizer Fit X/Y
+		Resizer : Resizer Option : when Grabber is used
+			OLD : image will be broken
+			NEW : fixed
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/09/30 #10 : 2022/10/13
 
 
