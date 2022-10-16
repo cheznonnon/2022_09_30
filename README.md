@@ -51,14 +51,14 @@
 
 		threre is no 3GB memory limit
 
-		+ made by Visual C++
+		+ made by Visual C++ 2017
 
 	[ project_nonnon.zip ]
 
 		source code
 		including resources like icons an sounds
 
-		you can easily compile with .BAT files
+		you can easily compile with .BAT files (MinGW only)
 		you can get stand-alone EXE
 
 
@@ -135,14 +135,14 @@
 
 		メモリが３ＧＢ以上扱えるニャ
 
-		+ Visual C++ で作成されているニャ
+		+ Visual C++ 2017 で作成されているニャ
 
 	[ project_nonnon.zip ]
 
 		ソースコードでニャ
 		アイコンやサウンドといったリソースも入っているニャ
 
-		バッチファイルを使っているので簡単にコンパイルできるニャ
+		バッチファイルを使っているので簡単にコンパイルできるニャ（MinGW のみ）
 		NonnonApps や GameConsole でなく単体の EXE が欲しい時にも使えるニャ
 
 
